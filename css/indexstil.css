@@ -71,7 +71,7 @@
     z-index: 20;
 }
 #navigacija {
-    width: 51%;
+    width: 40%;
     margin: auto;
     z-index: 20;
     background-color: #ffc107;
@@ -89,4 +89,7 @@
 .navzalogo a:hover {
     font-weight: bold;
    color: #b60224;
+}
+.navzalogo:last-child {
+    margin-right: 0;
 }
