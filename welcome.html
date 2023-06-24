@@ -7,7 +7,7 @@
     <title>Welcome page Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     
@@ -16,7 +16,7 @@
     
     <link rel="stylesheet" href="css/magnific-popup.css">
     
-    <link href="css/aos.css" rel="stylesheet">
+    <link href="css/aos.css" rel="stylesheet"> -->
     
     <link href="css/templatemo-nomad-force.css" rel="stylesheet">
     <style type="text/css">
@@ -74,27 +74,23 @@
             text-transform: uppercase;
             color: #ffc107;
             opacity: 1;
-            transition: all 1s ease 2s;
+            transition: all 1s ease 1.5s;
         }
-        /* h1 {
-            font-size: 4em;
-            color: #fff;
-            text-align: center;
-            opacity: 1;
-            transition: all 6s ease-in-out;
-        } */
-        
+        #enter {
+            font-size:50px; 
+            letter-spacing: 4px;
+        }
+        #enter a:hover {
+            font-weight: 800 !important;
+        }
+
         .welcome-section.content-hidden .content-wrap .fly-in-text { opacity: 0; }
         .welcome-section.content-hidden h1 { opacity: 0; }
         .welcome-section.content-hidden .content-wrap .fly-in-text:nth-child(1)  { transform: translate3d(-100px, 0, 0); }
         .welcome-section.content-hidden .content-wrap .fly-in-text:nth-child(2) { transform: translate3d(100px, 0, 0); }
         .welcome-section.content-hidden .content-wrap .enter-button { opacity: 0; transform: translate3d(0, -30px, 0); }
         
-        /* @media (min-width: 800px) {
-            .welcome-section .content-wrap .fly-in-text  { font-size: 10em; }
-            .welcome-section .content-wrap .enter-button { font-size: 1.5em; }
-        }
-         */
+    
     </style>
 
 </head>
@@ -108,7 +104,7 @@
             <!-- <h1>Minje Perunović</h1> -->
      
             
-            <a href="index.html" class="enter-button">Enter</a>
+           <h1 id="enter"> <a href="index.html" class="enter-button">Enter</a></h1>
         </div> 
     </div>
     
