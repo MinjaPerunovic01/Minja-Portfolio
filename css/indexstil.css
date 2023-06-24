@@ -1,0 +1,64 @@
+#prvi {
+    height: 300vh;
+    /* background:linear-gradient( #b60224, #fff); */
+    background-color: #b60224;
+    display: flex;
+    width: 100%;
+}
+#drugi {
+    height: 200vh;
+    background:linear-gradient( #ED2233 0%, #F2BCC1 15%,#F2BCC1 80%,  #fff 95%);
+    /* background-color: #F2BCC1; */
+    /* position: relative; */
+    display: flex;
+    width: 100%;
+   }
+#treci {
+    height: 300vh;
+    display: flex;
+    background:linear-gradient( #fff 10%, #ffc107 15%);
+    background-color: #ffc107;
+    /* position: relative; */
+    width: 100%;
+}
+#naslov1 {
+    position: sticky;
+    position: -webkit-sticky;
+    font-size: 100px;
+    align-self: flex-start;
+    transform: translate(-50%,-50%);
+    left: 50%; top: 50%;
+}
+#naslov2 {
+    font-size: 84px;
+    font-weight: bold;
+    position: sticky;
+    position: -webkit-sticky;
+    align-self: flex-start;
+    transform: translate(-50%,-50%);
+    left: 50%; top: 50%;
+}
+
+#naslov3 {
+    font-size: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    align-self: flex-start;
+    transform: translate(-50%,-50%);
+    left: 50%; top: 70%;
+}
+.naslovi {
+    /* position: absolute; */
+    transform: translate(-50%,-50%);
+    left: 50%; top: 50%;
+    color: #fff;
+}
+.links {
+    color: #fff;
+
+}
+.links:hover {
+    color: #fff;
+    /* font-weight: 500; */
+    border-bottom: 3px solid #fff !important;
+}
